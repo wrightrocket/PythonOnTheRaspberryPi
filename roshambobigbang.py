@@ -255,5 +255,5 @@ if __name__ == '__main__':
         print 'You lost overall.'
     else:
         print 'Overall it was a tie'
-        print 'Thanks for playing Rock, Paper, Scissors, Lizard, Spock!'
+    print 'Thanks for playing Rock, Paper, Scissors, Lizard, Spock!'
          
