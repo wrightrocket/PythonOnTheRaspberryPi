@@ -1,5 +1,5 @@
 #!/usr/bin/python
-''' Simple game of rock, paper and scissors 
+''' Rock, Paper, Scissors, Lizard, Spock
 
 This version is an interactive text version.
 User will provide input of r,p,c,l,s, or q.
