@@ -59,13 +59,19 @@ def getPlayerChoice():
         return None
 
 def welcome():
-    ''' Initial greeting printed out by the program '''
-    print 'Welcome to the game of rock, paper, scissors!'
-    print 'First, you will be asked to make your choice'
-    print 'by typing r for rock, p for paper, s for scissors'
-    print 'or q to quit. Then, the program will make a '
-    print 'random choice, and determine the winner.'
-    print 
+    ''' Initial greeting printed out by the program
+    
+    The one triple quoted string below replaced five print statements!
+    This function doesn't explicitly return anything, so it is just a subroutine
+    and will return None'''
+    
+    print '''Welcome to the game of rock, paper, scissors!
+    First, you will be asked to make your choice
+    by typing r for rock, p for paper, s for scissors
+    or q to quit. Then, the program will make a 
+    random choice, and determine the winner.
+    
+    '''
 
 if __name__ == '__main__':
     random.seed()
